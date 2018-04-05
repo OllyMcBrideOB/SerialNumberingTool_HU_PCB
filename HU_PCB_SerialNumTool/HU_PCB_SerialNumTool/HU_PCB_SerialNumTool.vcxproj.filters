@@ -17,5 +17,26 @@
   <ItemGroup>
     <None Include="HU_PCB_SerialNumTool.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.HU_PCB_SerialNumTool.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I2C_EEPROM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteAnything.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SerialNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I2C_EEPROM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
